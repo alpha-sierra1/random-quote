@@ -19,3 +19,8 @@ const maximumValue = array2.reduce((acc, current) => {
 }, array2[0]);
 
 console.log(maximumValue);
+
+const ageJonas = 2037 - 1991;
+console.log(ageJonas);
+const ageSarah = 2037 - ageJonas;
+console.log(ageSarah);
