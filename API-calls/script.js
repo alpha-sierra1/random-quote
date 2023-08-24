@@ -3,6 +3,6 @@ let apiData = [];
 fetch(url)
   .then((response) => response.json())
   .then((data) => {
-    apiData = data.language;
+    apiData = data;
     console.log(apiData);
   });
